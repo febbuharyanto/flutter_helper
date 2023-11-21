@@ -96,4 +96,14 @@ class Helpers {
   getNlastChar(str, n) {
     return str.substring(str.length - n);
   }
+
+  String currentyear() {
+    var date = DateTime.now();
+    return date.year.toString();
+  }
+
+  String currentmonth() {
+    var date = DateTime.now();
+    return date.month.toString();
+  }
 }
