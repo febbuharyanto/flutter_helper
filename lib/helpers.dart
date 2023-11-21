@@ -1,4 +1,19 @@
 class Helpers {
+  List<String> monthsIndonesia = [
+    'Januari',
+    'Februari',
+    'Maret',
+    'April',
+    'Mei',
+    'Juni',
+    'Juli',
+    'Agustus',
+    'September',
+    'Oktober',
+    'November',
+    'Desember'
+  ];
+
   String convertMonth(m) {
     var month = '';
     if (m == '1' || m == '01') {
